@@ -51,7 +51,7 @@ if uploaded_file is not None:
                 
                 # Create bar plot
                 fig = px.bar(x=sentiments, y=values, title="Sentiment Scores", 
-                            labels={'Sentiment': 'Sentiment Type', 'Score': 'Score Value'},
+                            labels={'x': 'SENTIMENT TYPE', 'y': 'Score Values'},
                             color=sentiments)
                 fig.update_layout(showlegend=False,autosize=False,width=400,height=500,
                                   plot_bgcolor='lightgray',  # Light gray background for plot area
