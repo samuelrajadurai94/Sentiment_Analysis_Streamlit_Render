@@ -1,5 +1,4 @@
 import streamlit as st
-'''
 import requests
 import plotly.express as px
 import plotly.graph_objects as go
@@ -87,4 +86,3 @@ if uploaded_file is not None:
                 
             else:
                 st.error("Error: Unable to process the file.")
-'''
