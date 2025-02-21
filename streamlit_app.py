@@ -4,7 +4,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import json
 
-API_URL = "https://sentiment-analysis-call-transcripts-ku75ajn8i.vercel.app/"
+API_URL = "https://sentiment-analysis-call-transcripts-c5dqzeme2.vercel.app/"
+#API_URL = "https://sentiment-analysis-call-transcripts-ku75ajn8i.vercel.app/"
 
 st.title("Sentiment Analysis on Sales Call Transcripts")
 st.write("Upload your call transcript files to analyze sentiment.")
